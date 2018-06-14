@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8" />
 
-    <title>Contact Us!</title>
+    <title>Contact</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/css-reset.css">
 
@@ -16,66 +16,64 @@
 
 <body>
 
-    <header>
+    <header class="header">
 
-        <h1 class="name">Wyatt Simpson</h1>
+        <h1 class="name" class="heading">Wyatt Simpson</h1>
 
-        <form action="index.html">
+        <div class="head-div">
 
-            <input type="submit" value="About" />
+            <a href="index.html" class="header-buttons">About</a>
 
-        </form>
+            <hr>
 
-        <form action="portfolio.html">
+            <a href="portfolio.html" class="header-buttons">Portfolio</a>
 
-            <input type="submit" value="Portfolio" />
+            <hr>
 
-        </form>
+            <a href="contact.html" class="header-buttons">Contact</a>
 
-        <form action="contact.html">
-
-            <input type="submit" value="Contact" />
-
-        </form>
+        </div>
 
     </header>
 
-    <div>
+    <section class="wrapper" class="clearfix">
 
-        <h2>Contact</h2>
+        <h2 class="heading">Contact</h2>
+
+        <hr>
 
         <form>
             <!--If u get time, put the breaks in css instead of here-->
             <!--maybe also get rid of section tags???-->
             <section>
 
-                <label>Name</label>
+                <label class="label">Name</label>
                 <br>
-                <input>
+                <input class="input">
 
             </section>
 
             <section>
 
-                <label>Email</label>
+                <label class="label">Email</label>
                 <br>
-                <input>
+                <input class="input">
 
             </section>
 
             <section>
 
-                <label>Message</label>
+                <label class="label">Message</label>
                 <br>
-                <textarea></textarea>
+                <textarea class="input" rows="10"></textarea>
 
             </section>
 
-            <button>Submit</button>
+            <a href="#" id="submit">Submit</a>
 
         </form>
 
-    </div>
+    </section>
 
     <footer>
 
