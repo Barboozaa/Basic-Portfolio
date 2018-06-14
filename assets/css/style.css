@@ -58,9 +58,9 @@ body {
 .wrapper {
     background-color: #ffffff;
     border-color: #dddddd;
-    width: 960px;
+    width: 70%;
     margin: 20px auto;
-    padding: 20px;
+    padding: 25px;
 }
 
 #bio-picture {
